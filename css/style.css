@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-cover {
+    background-size: cover;
+    box-shadow: 4px 4px 4px rgb(104, 99, 99);
+    transition: all 0.5s;
+}
+
+.col h2 {
+    color: rgb(31, 29, 29);
+}
+
+.col small {
+    padding: 5px;
+    background-color: rgb(233, 213, 202);
+    color: #000;
+}
+
+.card-cover d-flex {
+    background-color: antiquewhite;
+}
+
+.card-cover:hover {
+    transform: scale(1.1);
+    ;
+}
+
+.d-flex .footer-paragraph {
+    margin-left: 40px;
+}
